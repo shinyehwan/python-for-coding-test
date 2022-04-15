@@ -55,30 +55,37 @@
 # 7-3
 # 이진 탐색 소스 코드 구현(반복문)
 
-def binary_search(array, target, start, end):
-    while start <= end:
-        if start > end:
-            return None
+# def binary_search(array, target, start, end):
+#     while start <= end:
+#         if start > end:
+#             return None
 
-        mid = (start + end) // 2
+#         mid = (start + end) // 2
 
-        if array[mid] == target:
-            return mid
+#         if array[mid] == target:
+#             return mid
         
-        elif array[mid] > target:
-            end = mid - 1
+#         elif array[mid] > target:
+#             end = mid - 1
 
-        else:
-            start = mid + 1
+#         else:
+#             start = mid + 1
 
     
 
-n, target = list(map(int, input().split()))
-array = list(map(int, input().split()))
+# n, target = list(map(int, input().split()))
+# array = list(map(int, input().split()))
 
-result = binary_search(array, target, 0, n-1)
+# result = binary_search(array, target, 0, n-1)
 
-if result == None:
-    print("원소가 존재하지 않습니다.")
-else:
-    print(result + 1)
+# if result == None:
+#     print("원소가 존재하지 않습니다.")
+# else:
+#     print(result + 1)
+
+# 7-4 한 줄 입력받아 출력하는 소스코드
+import sys
+
+# 하나의 문자열 데이터 입력받기
+input_data = sys.stdin.readline().rstrip()
+print(input_data)
