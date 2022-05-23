@@ -1,4 +1,6 @@
 # 7-8
+
+# 안되는 이유가 뭐지?
 n, m = list(map(int, input().split(' ')))
 array = list(map(int, input().split()))
 
@@ -15,14 +17,15 @@ while(start <= end):
         if x > mid:
             total += x - mid
 
-    if total > m:
+    if total > m :
         start = mid + 1
-    elif total < m:
+    elif total < m : 
         end = mid - 1
     else:
-        mid = result
+        result = mid
 
 print(result)
+
     
 # # 떡의 개수(N)와 요청한 떡의 길이(M)을 입력
 # n, m = list(map(int, input().split(' ')))
