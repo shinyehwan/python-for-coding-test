@@ -36,9 +36,25 @@
 # print(((A%C) * (B%C))%C)
 
 # 2438
+# n = int(input())
+
+# for i in range(1, n+1):
+#     print('*' * i)
+
+    
+# 10172
+# 역슬래쉬 사용하려면 연속으로 두번 사용
+# 큰따옴표 출력 -> 문자열을 둘러싸는 따옴표를 작은 따옴표로 사용해 그 안의 문자들이 출력
+# print('|\\_/|')
+# print('|q p|   /}')
+# print('( 0 )"""\\')
+# print('|"^"`    |')
+# print('||_/=\\\__|')
+
+# 1330 -> done
+
+# 2741
 n = int(input())
 
 for i in range(1, n+1):
-    print('*' * i)
-
-    
+    print(i)
