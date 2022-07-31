@@ -54,7 +54,25 @@
 # 1330 -> done
 
 # 2741
-n = int(input())
+# n = int(input())
 
-for i in range(1, n+1):
-    print(i)
+# for i in range(1, n+1):
+#     print(i)
+
+
+# 2439
+# , 말고 + 를 써서 붙일 수 있다는 것!!
+# n = int(input())
+
+# for i in range(1, n+1):
+#     print((n-i)*' ' + i*'*')
+
+# 8392
+# n = int(input())
+
+# result = 0
+# for i in range(1, n+1):
+#     result += i
+
+# print(result)
+
