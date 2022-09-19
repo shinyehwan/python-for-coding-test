@@ -6,6 +6,6 @@
   import sys
   변수 = sys.stdin.readline()
   
-
+확인
 
 
