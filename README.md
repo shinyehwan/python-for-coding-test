@@ -3,6 +3,7 @@
 일일일알
 
 n,m,k = list(map(int, input().split()))
-
+import sys 
+변수 = sys.stdin.readline()
 
 
