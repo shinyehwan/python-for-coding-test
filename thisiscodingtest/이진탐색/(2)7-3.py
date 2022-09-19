@@ -1,5 +1,4 @@
 # 왜 안되는거야 
-# 피곤하다 졸리다. 
 # 여기서 start, end는 자리수(값이 아니라)
 def binary_search(array, target, start, end):
     while start <= end:
