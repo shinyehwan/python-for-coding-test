@@ -1,4 +1,8 @@
 # python-for-coding-test
 ## 천천히 꾸준히!!!
-일일일알 -> 하루에 알고리즘문제 하나씩 풀어보자!!!
-다시 시작! 1일차!!
+일일일알
+
+n,m,k = list(map(int, input().split()))
+
+
+
