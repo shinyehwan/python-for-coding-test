@@ -5,13 +5,13 @@
 n,m,k = list(map(int, input().split()))
 import sys
 변수 = sys.stdin.readline()
-
+```
 
 ```
 # 스텍 개념 이해
 print(stack) # 최하단 원소부터 출력
 print(stack[::-1]) # 최상단 원소부터 출력
-
+```
 
 ```
 # 큐 개념 이해
@@ -21,5 +21,10 @@ queue = deque()
 print(queue) # 먼저 들어온 순서대로 출력
 queue.reverse() # 다음 출력을 위해 역순으로 바꾸기
 print(queue) # 나중에 들어온 원소부터 출력
+```
 
+```
+재귀함수는 -> 종료 조건을 꼭 명시해줘야함.
+        -> 스택 자료구조와 동일함
+```
 
