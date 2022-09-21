@@ -51,25 +51,25 @@ def recursive_function(i):
 
 recursive_function(1)
 
-# 5-5
-# 반복적으로 구현한 n!
-def factorial_iterative(n):
+# # 5-5
+# # 반복적으로 구현한 n!
+# def factorial_iterative(n):
     
-    result = 1
-    for i in range(1, n+1):
-        result *= i
+#     result = 1
+#     for i in range(1, n+1):
+#         result *= i
     
-    return result
+#     return result
 
-# 재귀적으로 구현한 n!
-def factorial_recursive(n):
+# # 재귀적으로 구현한 n!
+# def factorial_recursive(n):
     
-    if n <= 1:
-        return 1
+#     if n <= 1:
+#         return 1
 
-    return n * factorial_recursive(n-1)
+#     return n * factorial_recursive(n-1)
 
 
-print('반복적으로 구현 : ', factorial_iterative(5))
-print('재귀적으로 구현 : ', factorial_recursive(5))
+# print('반복적으로 구현 : ', factorial_iterative(5))
+# print('재귀적으로 구현 : ', factorial_recursive(5))
 
