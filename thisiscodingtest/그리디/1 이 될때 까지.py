@@ -1,4 +1,4 @@
-    # 3-5
+# 3-5
 n, k = map(int, input().split())
 result = 0
 
