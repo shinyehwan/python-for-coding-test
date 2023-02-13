@@ -1,10 +1,9 @@
 n = 1260
-count = 0
-
 coins = [500, 100, 50, 10]
+result = 0
 
 for coin in coins:
-    count += n // coin
-    n %= coin
+     result += n // coin
+     n %= coin
 
-print(count)
+print(result)
