@@ -40,7 +40,7 @@
 # recursive_function()
 
 # 5-4
-
+# 재귀함수는 스텍 자료구조 이다!
 def recursive_function(i):
     # 100번째 출력했을 때 종료되도록 종료 조건 명시
     if i == 100:
@@ -72,4 +72,5 @@ recursive_function(1)
 
 # print('반복적으로 구현 : ', factorial_iterative(5))
 # print('재귀적으로 구현 : ', factorial_recursive(5))
+
 
