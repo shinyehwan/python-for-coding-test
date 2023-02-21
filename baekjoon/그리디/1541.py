@@ -14,7 +14,7 @@ for i in n:
         for j in m:
             result+=int(j)
     else:
-        result = int(n[0])
+        result = int(i)
 
     num.append(result)
 
